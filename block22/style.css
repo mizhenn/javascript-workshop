@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Party card styles */
+.party {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.party h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.party p {
+    margin: 5px 0;
+    color: #666666;
+}
+
+.details-button,
+.delete-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.details-button {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+/* Party details styles */
+.party-details {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.party-details h2 {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 10
